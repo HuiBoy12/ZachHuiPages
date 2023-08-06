@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zachary Hui</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://i.ibb.co/L96fNyN/ezgif-com-resize.gif"); 
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT ME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">HOBBIES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CODING</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Zach</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+    <p>I studied Computer Science at Rutgers University. In addition to where I studied, some of my favorite hobbies of mine are gaming, coding, performing, and sports! You can find out more about it by scrolling down or by clicking on the hobbies and coding tabs!</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">HOBBIES</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Gaming');" id="myLink">
+        <div class="w3-col s6 tablink">Gaming</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Game Development');" id="myLink">
+        <div class="w3-col s6 tablink">Game Development</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Sports');">
+        <div class="w3-col s6 tablink">Sports</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Performing');">
+        <div class="w3-col s6 tablink">Performing</div>
+      </a>
+    </div>
+
+    <div id="Gaming" class="w3-container menu w3-padding-48 w3-card">
+      <p>In my free time I enjoy playing games. Being able to have the ability to stay entertained and connect with friends without the need of meeting up has made me a game enthusiast. Here are some games I play below.</p>
+      <h5>Valorant</h5>
+      <a href="https://ibb.co/Pmbdn4c"><img src="https://i.ibb.co/K0QJk72/shooting-a-gun-valorant.gif" alt="shooting-a-gun-valorant" border="0"></a>
+      <h5>Apex Legends</h5>
+      <a href="https://ibb.co/syG6dG7"><img src="https://i.ibb.co/HnsxfsZ/apex-legends-season7.gif" alt="apex-legends-season7" border="0"></a>
+      <h5>Minecraft</h5>
+      <a href="https://ibb.co/pbtGgxK"><img src="https://i.ibb.co/HBW10VP/minecraft-shader.gif" alt="minecraft-shader" border="0"></a> 
+      <h5>Grand Theft Auto V</h5>
+      <a href="https://ibb.co/ns8PJLH"><img src="https://i.ibb.co/DDgr2Rx/gta5-gta-v.gif" alt="gta5-gta-v" border="0"></a>
+    </div>
+
+    <div id="Game Development" class="w3-container menu w3-padding-48 w3-card">
+      <p>I have had a strong interest in game development since I was young. Being able to see written code and builds come to life on screen is something that gives me excitement.</p>
+      <h5>La Primavera Ricorrere</h5>
+      <a href="https://ibb.co/YWxg7Rv"><img src="https://i.ibb.co/kytZgHY/hotel-roblox.jpg" alt="hotel-roblox" border="0"></a>
+      <p>Hotel Architecture inspired by Italian Architecture</p>
+      <h5>Tsunami Survival</h5>
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/PwD8DmR/tsunami-game.jpg" alt="tsunami-game" border="0"></a>
+      <p>Tsunami hitting a building</p>
+    </div>
+
+    <div id="Sports" class="w3-container menu w3-padding-48 w3-card">
+      <p>Ever since I was young, I enjoyed playing sports; ranging from soccer and swimming in my elementary school years to Tennis and Badminton over highschool and college. Besides being good for your health, I have always found a liking for sports because of it's competitve nature. Being faced with the challenges of having to problem solve and constantly improve your skillset to beat opponents is something I find rewarding. Here are some sports below that I enjoy watching and playing these days. </p>
+      <h5>Tennis</h5>
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/sQDqfDm/clipart-tennis.jpg" alt="clipart-tennis" border="0"></a>
+      <h5>Badminton</h5>
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/dLjhNmH/badminton-clipart.jpg" alt="badminton-clipart" border="0"></a>
+      <h5>Pickleball</h5>
+      <a href="https://ibb.co/tH9BZsK"><img src="https://i.ibb.co/Gdq7s2p/pickleball-clipart.png" alt="pickleball-clipart" border="0"></a>
+      <h5>Golf</h5>
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/YLHfKbs/golf-clipart.jpg" alt="golf-clipart" border="0"></a>
+    </div>  
+
+    <div id="Performing" class="w3-container menu w3-padding-48 w3-card">
+      <p>Likewise to sports, I have enjoyed performing ever since I was little. Playing multiple instruments in school concerts, being part of my high school marching band, and having recently picked up singing and dancing in college, I find myself passionate in performing in front of others. In college, I joined the Rutgers Haru Dance Club and have performed at their yearly showcases since. Since the performances I have been in were not recorded, here are some example of some performances I like.</p>
+      <h5>Singing</h5>
+      <iframe width="640" height="320"
+      src="https://www.youtube.com/embed/7mhgpiyVww0">
+      </iframe>
+      <h5>Dancing</h5>
+      <iframe width="640" height="320"
+      src="https://www.youtube.com/embed/lD4IcYiF2aM">
+      </iframe> 
+      <h5>Instruments</h5>
+      <div class="images123">
+          <div style="float:left;margin-left:30px; margin-right:15px;">
+              <img src="https://i.ibb.co/WxzbjPC/saxophone-clipart.jpg" height="200" width="200"  />
+              <p style="text-align:center;">Saxophone</p>
+          </div>
+          <div style="float:left;margin-right:15px;">
+              <img class="middle-img" src="https://i.ibb.co/k8FLwBz/clarinet-clip-art.jpg" height="200" width="200" />
+              <p style="text-align:center;">Clarinet</p>
+          </div>
+          <div style="float:left;margin-right:5px;">
+              <img src="https://i.ibb.co/sVfJK1P/piano-clip-art.jpg" height="200" width="200" />
+              <p style="text-align:center;">Piano</p>
+          </div>
+      </div>
+    </div>  
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CODING</span></h5> 
+      <p>Coding to me is a perfect balance of techology and arts. When I first starting coding in high school, I was fascinated with the idea of writing code and watching it take effect in real time. You can find some of my personal projects <a href="https://github.com/HuiBoy12">here</a> and below are some languages I code with. </p>
+      <div class="images123">
+          <div style="float:left;margin-left:30px; margin-right:15px;">
+              <a href="https://www.java.com/en/download/help/whatis_java.html"><img src="https://i.ibb.co/z7yjB7V/java-logo-png.jpg" height="200" width="200"  />
+              <p style="text-align:center;">Java</p>
+          </div>
+          <div style="float:left;margin-right:15px;">
+              <a href="https://www.python.org/about/"><img class="middle-img" src="https://i.ibb.co/C8fJRdL/python-logo.png" height="200" width="200" />
+              <p style="text-align:center;">Python</p>
+          </div>
+          <div style="float:left;margin-right:5px;">
+              <a href="https://www.geeksforgeeks.org/c-programming-language/"><img src="https://i.ibb.co/MBVYGbb/C-logo.png" height="200" width="200" />
+              <p style="text-align:center;">C</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Menu Template by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
